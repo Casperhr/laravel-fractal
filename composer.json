@@ -20,11 +20,25 @@
             "role": "Developer"
         }
     ],
+     "repositories": [
+        {
+            "type":"package",
+            "package": {
+                "name": "casperhr/fractalistic",
+                "version":"master",
+                "source": {
+                    "url": "https://github.com/casperhr/fractalistic.git",
+                    "type": "git",
+                    "reference":"main"
+                }
+            }
+        }
+    ]
     "require": {
         "php": "^8.0",
         "illuminate/contracts": "^8.0|^9.0",
         "illuminate/support": "^8.0|^9.0",
-        "spatie/fractalistic": "^2.5",
+        "casperhr/fractalistic": "dev-master",
         "spatie/laravel-package-tools": "^1.11"
     },
     "require-dev": {
