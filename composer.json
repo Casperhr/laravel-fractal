@@ -1,5 +1,5 @@
 {
-    "name": "casperhr/laravel-fractal",
+    "name": "spatie/laravel-fractal",
     "description": "An easy to use Fractal integration for Laravel applications",
     "keywords": [
         "spatie",
